@@ -26,4 +26,6 @@ n8n
 
 #### Sample of `n8n` environment
 
-[Image](./init_n8n.png)
+<p align="center">
+<img src="./init_n8n.png" width="1100" style="width:300;">
+</p>
