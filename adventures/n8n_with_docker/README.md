@@ -56,4 +56,4 @@ sudo docker-compose logs -f
 #### [5]
 Sample demo to run n8n with Docker:
 
-- [Sample demo on Youtube](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [Sample demo on Youtube](https://youtu.be/mHAd7x4g3As)
