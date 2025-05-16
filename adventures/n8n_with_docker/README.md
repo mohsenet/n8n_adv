@@ -2,6 +2,16 @@
 
 
 #### [1]
+In the Docker hub search `n8n` and select the most downloaded image and copy the `Docker Pull Command`.
+
+https://hub.docker.com/r/n8nio/n8n
+
+```bash
+docker pull n8nio/n8n
+```
+
+
+#### [2]
 Make a docker-compose file
 
 ```bash
@@ -9,7 +19,7 @@ touch docker-compose.yml
 ```
 
 
-#### [2]
+#### [3]
 Edit your `docker-compose.yml`
 
 ```yml
@@ -28,7 +38,7 @@ volumes:
 ```
 
 
-#### [3]
+#### [4]
 Then recreate the container:
 
 ```bash
@@ -36,7 +46,7 @@ sudo docker-compose down -v
 sudo docker-compose up -d
 ```
 
-#### [4]
+#### [5]
 Check logs:
 
 ```bash
