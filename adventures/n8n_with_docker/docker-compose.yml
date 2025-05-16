@@ -1,6 +1,15 @@
 services:
   n8n:
     image: n8nio/n8n
+    environment:
+      # MCP server environment variables
+      # - MCP_BRAVE_API_KEY=your-brave-api-key
+      # - MCP_OPENAI_API_KEY=your-openai-key
+      # - MCP_SERPER_API_KEY=your-serper-key
+      # - MCP_WEATHER_API_KEY=your-weather-api-key
+
+      # Enable community nodes as tools
+      - N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true
     container_name: n8n
     ports:
       - "5678:5678"
