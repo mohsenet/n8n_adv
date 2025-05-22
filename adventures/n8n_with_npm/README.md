@@ -29,3 +29,10 @@ n8n
 <p align="center">
 <img src="./init_n8n.png" width="1100" style="width:300;">
 </p>
+
+#### uninstall
+
+To unistall it, use following command
+```bash
+sudo npm uninstall -g n8n
+```
